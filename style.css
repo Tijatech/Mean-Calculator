@@ -1,0 +1,27 @@
+#getN, #items input{
+box-shadow:1px 1px 5px green;
+border:none;
+padding:10px 20px;
+outline:none;
+}
+.btn{
+padding:10px 20px;
+outline:none;
+box-shadow:1px 1px 5px green;
+border:none;
+background-color:green;
+color:white;
+
+}
+#items{
+padding:20px 0px;
+margin-top:20px;
+width:300px;
+}
+#items input{
+width:100%;
+margin:10px 0;
+}
+input::placeholder{
+color:red;
+}
