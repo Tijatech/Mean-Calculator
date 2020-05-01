@@ -9,7 +9,7 @@ for (i = 0; i < N; i++) {
  html += "<input type=\"number\">"
 }
 html += "<button id=\"cal\" class=\"btn\"> Calculate </button>"
-$("#items").html(html);
+$("#items").html($(html));
 
 
 $("#cal").click(function(){
@@ -30,7 +30,7 @@ error += 1;
 if(error == 0){
 if(total != 0 ){
 var result = "<h3 style=\"color:blue\">The Mean is: "+total/N + "</h3>";
-$("#items").append(result);
+$("#items").append($(result));
 }
 }
 })
