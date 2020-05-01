@@ -35,7 +35,7 @@ $("#items").append($(result));
 }
 })
 }else{
-$("#items").append("<h4 style=\"color:red; margin:0;\">Enter The number of items</h4>");
+$("#items").append($("<h4 style=\"color:red; margin:0;\">Enter The number of items</h4>"));
 }
 })
 
